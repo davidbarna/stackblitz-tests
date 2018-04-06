@@ -1,7 +1,7 @@
 {
-  "name": "js-aqvgf6",
-  "description": "",
+  "name": "stackblitz-test-root",
+  "description": "Description for a stackblitz",
   "homepage": "https://stackblitz.com/edit/js-aqvgf6",
   "dependencies": {},
-  "version": "1.0.0"
+  "version": "2.0.0"
 }
