@@ -1,13 +1,13 @@
 {
-  "name": "stackblitz-test-root",
-  "description": "Description for a stackblitz",
-  "homepage": "https://stackblitz.com/edit/js-aqvgf6",
+  "name": "create-react-app-import",
+  "description": "",
+  "homepage": "https://stackblitz.com/edit/create-react-app-import",
   "dependencies": {
     "react": "16.1.1",
     "react-dom": "16.1.1",
     "react-scripts": "1.0.10"
   },
-  "version": "0.2.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
