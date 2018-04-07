@@ -1,0 +1,23 @@
+{
+  "name": "create-react-app-import",
+  "description": "",
+  "homepage": "https://stackblitz.com/edit/create-react-app-import",
+  "dependencies": {
+    "node-sass-chokidar": "1.2.2",
+    "react-scripts": "1.0.10"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build-css":
+      "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "watch-css":
+      "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
